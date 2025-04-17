@@ -9,9 +9,9 @@
 #define STACK_H
 
 typedef struct {
-    int* data;
-    int top;
-    int max_size;
+    int* data; // массив элементов
+    int top; // индекс верхнего эл
+    int max_size; // макс размер стека
 } Stack;
 
 Stack* createStack(int max_size);

@@ -1,5 +1,5 @@
 //
-// Created by maxxx on 13.04.2025.
+// Created by maxxx on 12.04.2025.
 //
 #include "stack.h"
 #include <stdio.h>
