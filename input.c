@@ -18,7 +18,12 @@ int inputStackSize() {
     }
 }
 
-void inputStackElements(Stack* stack) {
+Stack* inputStackElements() {
+    int max_size = inputStackSize();
+    Stack* stack = createStack(max_size);
+    if (!stack) {
+        return NULL;
+    }
     printf("Enter stack elements (only integers, press Enter twice to stop, or fill the stack):\n");
     int value;
     int is_first_char = 1;
@@ -43,4 +48,5 @@ void inputStackElements(Stack* stack) {
             is_first_char = 1;
         }
     }
+    return stack;
 }

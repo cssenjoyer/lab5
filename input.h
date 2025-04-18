@@ -10,7 +10,7 @@
 #include "stack.h"
 
 int inputStackSize();
-void inputStackElements(Stack* stack);
+Stack* inputStackElements();
 
 #endif
 #endif //UNTITLED7_INPUT_H
